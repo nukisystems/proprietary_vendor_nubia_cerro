@@ -98,13 +98,46 @@ PRODUCT_PACKAGES += \
     com.zte.node.capturepostprocess \
     com.zte.node.capturereprocess \
     com.zte.node.capturescale \
+    com.zte.node.mcxrealtimepostprocess \
     com.zte.node.rawsvq \
     com.zte.node.realtimepostprocess \
     com.zte.node.sat \
     com.zte.node.satpostprocess \
+    libcamxevainterface \
+    com.qti.camx.chiiqutils \
+    com.qti.chiusecaseselector \
+    com.qti.feature2.afbrckt \
+    com.qti.feature2.anchorsync \
+    com.qti.feature2.demux \
+    com.qti.feature2.derivedoffline \
     com.qti.feature2.fusion \
+    com.qti.feature2.generic \
+    com.qti.feature2.gs.sm8650 \
+    com.qti.feature2.hdr \
+    com.qti.feature2.mcreprocrt \
+    com.qti.feature2.memcpy \
+    com.qti.feature2.metadataserializer \
+    com.qti.feature2.mfsr \
+    com.qti.feature2.ml \
+    com.qti.feature2.mux \
+    com.qti.feature2.qcfa \
+    com.qti.feature2.rawhdr \
+    com.qti.feature2.realtimeserializer \
+    com.qti.feature2.rt \
+    com.qti.feature2.rtmcx \
+    com.qti.feature2.serializer \
+    com.qti.feature2.statsregeneration \
+    com.qti.feature2.stub \
+    com.qti.feature2.supres \
+    com.qti.feature2.swmf \
+    com.qualcomm.mcx.distortionmapper \
+    com.qualcomm.mcx.linearmapper \
+    com.qualcomm.mcx.nonlinearmapper \
+    com.qualcomm.mcx.policy.mfl \
+    com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom.sm8650 \
     camera.qcom \
+    com.qti.chi.offline \
     com.qti.chi.override \
     fingerprint.gf95xx.default \
     sensors.hal.tof \
@@ -117,8 +150,10 @@ PRODUCT_PACKAGES += \
     libarcsoft_scbokeh_image \
     libarcsoft_scbokeh_video \
     libarcsoft_superportrait \
+    libcamerapostproc \
     libcamxarcskinbeautiful \
     libcamxdepthbokeharc \
+    libcamxncsdatafactory \
     libcamxremovefringer \
     libcamxselfiebokeharc \
     libcamxskytone \
