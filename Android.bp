@@ -1,0 +1,2015 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+        "vendor/nubia/sm8650-common",
+        "hardware/qcom-caf/sm8650",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.ois.ois_dw9781_cerro_ov64b40",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.ois.ois_dw9781_cerro_ov64b40.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.ois.ois_dw9784_cerro_imx800",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_imx800.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.ois.ois_dw9784_cerro_imx906",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_imx906.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.ois.ois_dw9784_cerro_ov50e40",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_ov50e40.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.eeprom.imx800_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.eeprom.imx800_cerro.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libeepromutil",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.eeprom.imx906_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.eeprom.imx906_cerro.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libeepromutil",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.eeprom.ov12d2q_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.eeprom.ov12d2q_cerro.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libeepromutil",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.eeprom.ov50e40_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.eeprom.ov50e40_cerro.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libeepromutil",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.eeprom.ov64b40_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.eeprom.ov64b40_cerro.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libeepromutil",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.sensor.imx800_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.sensor.imx800_cerro.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.sensor.imx906_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.sensor.imx906_cerro.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.sensor.ov12d2q_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.sensor.ov12d2q_cerro.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.sensor.ov50e40_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.sensor.ov50e40_cerro.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.sensor.ov64b40_cerro",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.zte.sensor.ov64b40_cerro.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.aec",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.af",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.af.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.aicud",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.aicud.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.capturepostprocess",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.capturepostprocess.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcamxcommonutils",
+                "libcutils",
+                "libcamxselfiebokeharc",
+                "libcamxdepthbokeharc",
+                "libcamxwidelencalc",
+                "libzcv",
+                "libdualAlgo",
+                "libcamxarcskinbeautiful",
+                "libcamxsuperres",
+                "libcamxdefog",
+                "libcom.nubia.chinodenubiautils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.capturereprocess",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.capturereprocess.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcamxcommonutils",
+                "libcutils",
+                "libcamxselfiebokeharc",
+                "libcamxdepthbokeharc",
+                "libcamxwidelencalc",
+                "libzcv",
+                "libdualAlgo",
+                "libcamxarcskinbeautiful",
+                "libcamxsuperres",
+                "libcamxskytone",
+                "libcamxudceffectenhance",
+                "libcamxremovefringer",
+                "libcamxdefog",
+                "libcom.nubia.chinodenubiautils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.capturescale",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.capturescale.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcamxcommonutils",
+                "libcutils",
+                "libcamxselfiebokeharc",
+                "libcamxdepthbokeharc",
+                "libcamxwidelencalc",
+                "libzcv",
+                "libdualAlgo",
+                "libcamxarcskinbeautiful",
+                "libcamxdefog",
+                "libcom.nubia.chinodenubiautils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.rawsvq",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.rawsvq.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.realtimepostprocess",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.realtimepostprocess.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcamxcommonutils",
+                "libcutils",
+                "libcamxselfiebokeharc",
+                "libcamxdepthbokeharc",
+                "libcamxwidelencalc",
+                "libcamxarcskinbeautiful",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.sat",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.sat.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "libopticalzoomfallback",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.zte.node.satpostprocess",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.zte.node.satpostprocess.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcom.qti.chinodeutils",
+                "libcamxcommonutils",
+                "libcutils",
+                "libzcv",
+                "libdualAlgo",
+                "libcom.nubia.chinodenubiautils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.feature2.fusion",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/com.qti.feature2.fusion.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "com.qti.chi.override",
+                "libchilog",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.qcom.sm8650",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/camera.qcom.sm8650.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libcdsprpc",
+                "libeepromutil",
+                "camera.qcom",
+                "libprotobuf-cpp-full-21.7",
+                "libcamximageformatutils",
+                "libcamxhwnodecontext",
+                "libisphwsetting",
+                "libeva",
+                "libsynx",
+                "libz",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.qcom",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/camera.qcom.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libcdsprpc",
+                "libeepromutil",
+                "libcamxfdengine",
+                "libcamximageformatutils",
+                "libcamxstatscore",
+                "libprotobuf-cpp-full-21.7",
+                "libqmi_cci",
+                "libqmi_common_so",
+                "libqmi_encdec",
+                "libsnsapi",
+                "libsns_direct_channel_stub",
+                "libeva",
+                "libsynx",
+                "libadaptive_shutter",
+                "libz",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.chi.override",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/com.qti.chi.override.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V1-ndk",
+                "com.qti.camx.chiiqutils",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libbinder_ndk",
+                "libbitmlenginev2",
+                "libcamximageformatutils",
+                "libchilog",
+                "vendor.qti.hardware.camera.aon-service-impl",
+                "vendor.qti.hardware.camera.postproc@1.0-service-impl",
+                "vendor.qti.hardware.camera.offlinecamera-service-impl",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.gf95xx.default",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/fingerprint.gf95xx.default.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libc++",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libgf_hal",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "sensors.hal.tof",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/sensors.hal.tof.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libQnnHtpV75CalculatorStub",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libQnnHtpV75CalculatorStub.so",
+            ],
+            shared_libs: [
+                "libcdsprpc",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libQnnJsonProfilingReader",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libQnnJsonProfilingReader.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libVNSInterface",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libVNSInterface.so",
+            ],
+            shared_libs: [
+                "libz",
+                "liblog",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_hp_detection",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_hp_detection.so",
+            ],
+            shared_libs: [
+                "libarcsoft_qnnhtp",
+                "libcdsprpc",
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_picselfie",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_picselfie.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_qnnhtp",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_qnnhtp.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libdl",
+                "libcdsprpc",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_scbokeh_image",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_scbokeh_image.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_scbokeh_video",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_scbokeh_video.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_superportrait",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_superportrait.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxarcskinbeautiful",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxarcskinbeautiful.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libcutils",
+                "libcom.qti.chinodeutils",
+                "libmpbase",
+                "liblog",
+                "libarcsoft_beautyshot_high",
+                "libarcsoft_facialrestoration",
+                "libarcsoft_superportrait",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxdepthbokeharc",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxdepthbokeharc.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libarcsoft_scbokeh_video",
+                "libarcsoft_scbokeh_image",
+                "libcutils",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxremovefringer",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxremovefringer.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libcutils",
+                "librmca",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxselfiebokeharc",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxselfiebokeharc.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libarcsoft_picselfie",
+                "libcutils",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxskytone",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxskytone.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libsky_seg_toning_320",
+                "libsky_seg_320",
+                "libsky_cls_320",
+                "libcutils",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxsuperres",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxsuperres.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libcutils",
+                "libsr_x1_272_272_12",
+                "libsr_x2_272_272_12",
+                "libsr_x4_272_272_12",
+                "libyuv_sr",
+                "libcom.qti.chinodeutils",
+                "libmpbase",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamxwidelencalc",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamxwidelencalc.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libcutils",
+                "libcom.qti.chinodeutils",
+                "libmpbase",
+                "libarcsoft_portrait_distortion_correction",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libchifeature2",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libchifeature2.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcommonchiutils",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libbinder_ndk",
+                "libchilog",
+                "libbitmlenginev2",
+                "com.qti.camx.chiiqutils",
+                "vendor.qti.hardware.camera.aon-service-impl",
+                "vendor.qti.hardware.camera.postproc@1.0-service-impl",
+                "libcamximageformatutils",
+                "vendor.qti.hardware.camera.offlinecamera-service-impl",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgf_hal",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgf_hal.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libc++",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libbinder",
+                "libQSEEComAPI",
+                "libdmabufheap",
+                "libbinder_ndk",
+                "libvendor.goodix.hardware.biometrics.fingerprint",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "librmca",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/librmca.so",
+            ],
+            shared_libs: [
+                "libzcv",
+                "libomp",
+                "liblog",
+                "libm",
+                "libc++_shared",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsky_cls_320",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsky_cls_320.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsky_seg_320",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsky_seg_320.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsky_seg_toning_320",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsky_seg_toning_320.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libtensorflowlite_jni_vendor",
+                "libtensorflowlite_gpu_jni",
+                "libsky_seg_320",
+                "libsky_cls_320",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsr_x1_272_272_12",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsr_x1_272_272_12.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsr_x2_272_272_12",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsr_x2_272_272_12.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsr_x4_272_272_12",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsr_x4_272_272_12.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_model_depurple_544_544",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libtflite_model_depurple_544_544.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libyuv_sr",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libyuv_sr.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libtensorflowlite_jni_vendor",
+                "libtensorflowlite_gpu_jni",
+                "libtflite_model_depurple_544_544",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "sensors.qsh",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/sensors.qsh.so",
+            ],
+            shared_libs: [
+                "libsns_direct_channel_stub",
+                "libcdsprpc",
+                "libprotobuf-cpp-lite-21.7",
+                "liblog",
+                "libsnsapi",
+                "libqsh",
+                "libsnsdiaglog",
+                "libutils",
+                "libcutils",
+                "libsensorslog",
+                "libhardware",
+                "libhidlbase",
+                "android.hardware.sensors@2.0",
+                "android.hardware.sensors@2.1",
+                "android.hardware.sensors@2.0-ScopedWakelock",
+                "android.hardware.graphics.mapper@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "libsnsutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+android_app_import {
+    name: "NubiaCamera",
+    owner: "nubia",
+    apk: "proprietary/system/priv-app/NubiaCamera/NubiaCamera.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+prebuilt_etc_xml {
+    name: "android.hardware.secure_element.xml",
+    owner: "nubia",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.secure_element.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.secure_element-service-aidl",
+    owner: "nubia",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.secure_element-service-aidl",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.secure_element-V1-ndk",
+                "android.hardware.secure_element.thales.libse",
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
