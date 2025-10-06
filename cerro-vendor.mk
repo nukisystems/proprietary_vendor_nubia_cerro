@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/beautiful_app/preference_beautify0.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beautiful_app/preference_beautify0.json \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/beautiful_app/preference_beautify1.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beautiful_app/preference_beautify1.json \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/beautiful_app/preference_beautify2.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beautiful_app/preference_beautify2.json \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/debug/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/debug/camxoverridesettings.txt \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/dualcam_cali.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dualcam_cali.bin \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
@@ -30,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/mfnr_network_denoise_config_moon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mfnr_network_denoise_config_moon.xml \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/mfnr_network_denoise_config_night.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mfnr_network_denoise_config_night.xml \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/mfnr_network_denoise_config_renwen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mfnr_network_denoise_config_renwen.xml \
+    vendor/nubia/cerro/proprietary/vendor/etc/camera/mfnr_network_denoise_config_underdisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mfnr_network_denoise_config_underdisplay.xml \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/sr_x1_272_272_12Binary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_x1_272_272_12Binary.bin \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/sr_x2_272_272_12Binary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_x2_272_272_12Binary.bin \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/sr_x4_272_272_12Binary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_x4_272_272_12Binary.bin \
