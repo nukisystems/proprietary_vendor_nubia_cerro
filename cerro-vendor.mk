@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/sr_x2_272_272_12Binary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_x2_272_272_12Binary.bin \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/sr_x4_272_272_12Binary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_x4_272_272_12Binary.bin \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/widelencalc_cali.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/widelencalc_cali.bin \
-    vendor/nubia/cerro/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/nubia/cerro/proprietary/vendor/etc/init/android.hardware.secure_element.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element.rc \
     vendor/nubia/cerro/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/nubia/cerro/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
