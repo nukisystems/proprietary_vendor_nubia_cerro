@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/cerro/proprietary/vendor/etc/sensors/config/lanai_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lanai_mtp_ak991x_0.json \
     vendor/nubia/cerro/proprietary/vendor/etc/sensors/config/lanai_stk3b6x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lanai_stk3b6x_0.json \
     vendor/nubia/cerro/proprietary/vendor/etc/st54l_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54l_conf.txt \
+    vendor/nubia/cerro/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/nubia/cerro/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
     vendor/nubia/cerro/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
     vendor/nubia/cerro/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
