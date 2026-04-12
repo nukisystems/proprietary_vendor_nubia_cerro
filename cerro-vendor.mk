@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nubia/cerro/proprietary/system/etc/pictureclassifier/MultiScenePictureClassifier.tflite:$(TARGET_COPY_OUT_SYSTEM)/etc/pictureclassifier/MultiScenePictureClassifier.tflite \
+    vendor/nubia/cerro/proprietary/vendor/etc/aac_richtap.config:$(TARGET_COPY_OUT_VENDOR)/etc/aac_richtap.config \
     vendor/nubia/cerro/proprietary/vendor/etc/acdbdata/pineapple_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pineapple_mtp/MTP_acdb_cal.acdb \
     vendor/nubia/cerro/proprietary/vendor/etc/acdbdata/pineapple_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pineapple_mtp/MTP_workspaceFileXml.qwsp \
     vendor/nubia/cerro/proprietary/vendor/etc/camera/VNSConfig_4k.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/VNSConfig_4k.xml \
